@@ -4,7 +4,7 @@ project(lib_fetch_b LANGUAGES CXX)
 
 include(FetchContent)
 
-set(LIB_FETCH_A_VERSION 6afc92b679adec75dc6c6adb7bfbd005d987a127)
+set(LIB_FETCH_A_VERSION d2d6b3339b8763b3a684042a095fdf9b0b9e51bf)
 message(STATUS "Downloading lib_fetch_a ${LIB_FETCH_A_VERSION}")
 
 FetchContent_Declare(lib_fetch_a
